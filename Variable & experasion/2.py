@@ -5,11 +5,5 @@ for i in range(n):
     numbers.append(element)
 
 print(numbers)
-print(numbers[0])
-print(numbers[-1])
 print(len(numbers))
 
-print(sum(numbers))
-print(sum(numbers)/n)
-print(max(numbers))
-print(min(numbers))

@@ -12,4 +12,6 @@ for i in range (n):
 
     print("The sum of the numbers is:", sum)
     print("The average of the numbers is:", sum/n)
+    print ("The maximum number is:", max(numbers))
+    print("The minimum number is:", min(numbers))   
     
