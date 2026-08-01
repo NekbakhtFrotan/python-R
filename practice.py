@@ -1,7 +1,14 @@
-import pandas as pd
+class rectangle:
+    def __init__(self, w, h, color = "blue"):
+        self.w = w
+        self.h = h
+        self.color = color
 
-data = {"name" : 'Ali'
-        , "Mark": 90,
-        "age": 34}
-df= pd.Series(data)
-print(df)
+    def area(self):
+        return  self.w * self.h
+
+class rectangle:
+    rec = rectangle(10, 10 ,"Red")
+    print(rec.area())
+
+
